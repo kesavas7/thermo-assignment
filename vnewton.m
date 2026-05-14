@@ -26,6 +26,7 @@ if abs(r(k+1,1))>tol
 end
 fprintf('\n');
 disp('Solution vector:')
+x = x(1:2);
 x
 rx=zeros(k,1);ry=zeros(k,1);
 for i=1:k
